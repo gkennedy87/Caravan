@@ -1,0 +1,75 @@
+//Color Palette
+$yankee : #1C2541;
+$indy : #3A506B;
+$bedazzle : #235789;
+$aqua : #6FFFE9;
+$black : #040F0F;
+
+//custom classes
+.bg-yankee {
+  background-color: $yankee;
+}
+.bg-indy {
+  background-color: $indy;
+}
+.bg-bedazzle {
+  background-color: $bedazzle;
+}
+.bg-aqua {
+  background-color: $aqua;
+}
+.bg-black {
+  background-color: $black;
+}
+
+.border-rd {
+  border-radius: 10%;
+}
+
+body {
+   // padding-top: 65px;
+   background-color: #FDFFFC;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('ship-plane.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    position: relative;
+  }
+  
+  .overlay:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+    background-color: #010101;
+  }
+
+  .mast-text {
+      z-index: 1;
+  }
+
+  hr {
+    width: 25rem;
+  }
+
+  .radial {
+    background: radial-gradient($bedazzle,$indy);
+    background: -moz-radial-gradient($bedazzle,$indy);
+    background: -webkit-radial-gradient($bedazzle,$indy);
+  }
+
+  p.big-font {
+    font-size: 1.25rem;
+  }
+
