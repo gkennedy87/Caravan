@@ -18,27 +18,18 @@
                   <!-- Card Header - Dropdown -->
                   <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                     <h6 class="m-0 font-weight-bold text-primary">Posts Overview</h6>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                              <th scope="col">Title</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            @if (count($posts) > 0)
-                              @foreach ($posts as $post)
-                                <tr>
-                                  <th scope="row">{{$post->title}}</th>
-                                </tr>
-                              @endforeach 
-                            @else
-                                <tr>
-                                  <th scope="row"><p>You don't have any posts yet.</p></th>
-                                </tr>
-                            @endif
-                            
-                          </tbody>
-                    </table>
+                    <div class="dropdown no-arrow">
+                      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-header">Dropdown Header:</div>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
                   </div>
                   <!-- Card Body -->
                   <div class="card-body">
