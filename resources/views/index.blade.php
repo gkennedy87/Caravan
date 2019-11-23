@@ -32,7 +32,7 @@
                             <p class="card-text">
                                 Caravan comes with a cloud-based address book so you can access your clients' information anywhere.
                             </p>
-                            <a href="#" class="btn btn-lg btn-light text-primary text-center mt-4">Learn More</a>
+                            <a href="{{url('/register')}}" class="btn btn-lg btn-light text-primary text-center mt-4">Learn More</a>
                         </div>
                         
                     </div>
@@ -48,7 +48,7 @@
                                     <p class="card-text">
                                         Never miss a deadline or forget to do something ever again. Track your project, deal, or daily routine with our task manager.
                                     </p>
-                                    <a href="#" class="btn btn-lg btn-light text-primary text-center">Learn More</a>
+                                    <a href="{{url('/register')}}" class="btn btn-lg btn-light text-primary text-center">Learn More</a>
 
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                                     <p class="card-text">
                                         No more opening new tabs or windows. Caravan comes with a convenient, up-to-date currency rate tracker right on your dashboard.
                                     </p>
-                                    <a href="#" class="btn btn-lg btn-light text-primary text-center">Learn More</a>
+                                    <a href="{{url('/register')}}" class="btn btn-lg btn-light text-primary text-center">Learn More</a>
 
                                 </div>
                             </div>
