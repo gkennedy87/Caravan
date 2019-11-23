@@ -17,7 +17,7 @@
                 <div class="card shadow mb-4">
                   <!-- Card Header - Dropdown -->
                   <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Posts Overview</h6>
                     <div class="dropdown no-arrow">
                       <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -45,7 +45,7 @@
                 <div class="card shadow mb-4">
                   <!-- Card Header - Dropdown -->
                   <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Tasks Sources</h6>
                     <div class="dropdown no-arrow">
                       <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -92,23 +92,23 @@
                     <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
                   </div>
                   <div class="card-body">
-                    <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+                    <h4 class="small font-weight-bold">Server Migration <span class="float-right">100%</span></h4>
                     <div class="progress mb-4">
-                      <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+                    <h4 class="small font-weight-bold">Cash Flow Tracking <span class="float-right">10%</span></h4>
                     <div class="progress mb-4">
-                      <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
                     <div class="progress mb-4">
                       <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+                    <h4 class="small font-weight-bold">FOREX API <span class="float-right">20%</span></h4>
                     <div class="progress mb-4">
-                      <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <h4 class="small font-weight-bold">Account Setup <span class="float-right">Complete!</span></h4>
+                    <h4 class="small font-weight-bold">Dashboard Setup <span class="float-right">Complete!</span></h4>
                     <div class="progress">
                       <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -174,13 +174,12 @@
                 <!-- Illustrations -->
                 <div class="card shadow mb-4">
                   <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">News</h6>
                   </div>
                   <div class="card-body">
                     <div class="text-center">
-                      <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="https://via.placeholder.com/350x125" alt="">
+                        <p>Thank you for registering and trying out my app. Now that I have this launched, I will start developing the FOREX rates tool. It shouldn't take to long so stay tuned!</p>
                     </div>
-                    <p>Add some quality, svg illustrations to your project courtesy of Unsplash, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!</p>
                   </div>
                 </div>
     
@@ -190,8 +189,7 @@
                     <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
                   </div>
                   <div class="card-body">
-                    <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
-                    <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                    <p>Caravan was built with the Laravel Framework featuring standard CRUD functionality for the blog CMS, and uses two different approaches for asynchronous javascript: jquery AJAX and Vue.js with the axios library. The task manager is built with the progressive Vue.js framework and a RESTful API on the backend. Caravan also is built on Bootstrap 4. </p>
                   </div>
                 </div>
     

@@ -14,7 +14,7 @@ class AddPostCoverImage extends Migration
     public function up()
     {
         Schema::table('posts',function($table){
-            $table->string('cover_img');
+            $table->string('cover_img')->nullable()->default(null);
         });
     }
 
