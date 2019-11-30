@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="card my-4 border-rd text-center">
-                        <div class="card-body bg-bedazzle text-light border-rd">
+                        <div class="card-body radial text-light border-rd">
                             <h3 class="card-title">
                                 <i class="fas fa-address-card"></i>
                                 <br>
@@ -32,14 +32,14 @@
                             <p class="card-text">
                                 Caravan comes with a cloud-based address book so you can access your clients' information anywhere.
                             </p>
-                            <a href="{{url('/register')}}" class="btn btn-lg btn-light text-primary text-center mt-4">Learn More</a>
+                            <a href="{{url('/register')}}" class="btn btn-lg btn-light text-primary text-center mt-1">Learn More</a>
                         </div>
                         
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
                         <div class="card my-4 border-rd text-center">
-                                <div class="card-body bg-bedazzle text-light border-rd">
+                                <div class="card-body radial text-light border-rd">
                                     <h3 class="card-title text-center">
                                         <i class="fas fa-list-alt"></i>
                                         <br>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                         <div class="card my-4  mb-5 border-rd text-center">
-                                <div class="card-body bg-bedazzle text-light border-rd">
+                                <div class="card-body radial text-light border-rd">
                                     <h3 class="card-title text-center">
                                         <i class="fas fa-yen-sign"></i>
                                         <i class="fas fa-dollar-sign"></i>

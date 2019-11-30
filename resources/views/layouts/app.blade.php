@@ -21,7 +21,7 @@
 </head>
 <body>
     
-        @include('inc.clearNav')
+        @include('inc.lightNav')
         <main>
             @yield('content')
         </main>
